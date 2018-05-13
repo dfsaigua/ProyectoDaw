@@ -1,3 +1,3 @@
 # ProyectoDaw
-Integrantes: Daniel Saigua Labre
-             Carlos Veintemilla Arias
+Integrantes: Daniel Saigua Labre -
+Carlos Veintemilla Arias
