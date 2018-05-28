@@ -1,12 +1,27 @@
 h1#cabecera { 
 	font-size: 45pt;
-
+  text-align: center;
+  font-style: "Verdana";
+  color: yellow;
+  background: url('imagenfondo.jpg') 
 }
+
+
+
+
 
 header {
   width: 100%;
-  align-content: center;
-}
+  
+  z-index: 100;
+  }
+
+
+section{
+
+ padding-top: 100px;
+
+}  
 
 nav {
   float: left; /* Desplazamos el nav hacia la izquierda */
