@@ -66,7 +66,7 @@ aside
 {
   display: inline-block;
   width: 100%;
-  height: 800px;
+  height: 600px;
   position: relative;
 
 }
@@ -76,12 +76,94 @@ section.division > *
   display: inline-block;
 }
 
+#diva > *
+{
+  width:200px; 
+  height:200px;
+}
+
+
 body div.uno
 {
   display: inline-block;
   width: 45%;
   height: 700px;
   position: relative;
+}
+
+div.card
+{
+  width: 45%;
+  height: 200px;
+}
+
+div.dos >*
+{
+  display: inline-block;
+  width: 250px;
+}
+
+div.dos img:hover
+{
+  opacity: 0.5;
+}
+
+img.imagen
+{
+  box-shadow: 5px 3px 10px 1px #888874;
+  border-radius: 40px;
+}
+
+div.tres
+{
+  height: 200px;
+}
+
+span.oculta
+{
+  border: 1px solid #ccc;
+  display: none;
+  font-size: 10px;
+  margin-top: 10px;
+  padding: 5px;
+  text-transform: uppercase;
+}
+
+#op1:hover #desc1
+{
+   display: block;
+}
+
+#op2:hover #desc2
+{
+   display: block;
+}
+
+#op3:hover #desc3
+{
+   display: block;
+}
+
+#op4:hover #desc4
+{
+   display: block;
+}
+
+#op5:hover #desc5
+{
+   display: block;
+}
+
+
+
+#pala
+{
+  width: 250px;
+}
+
+#quien
+{
+  display: block;
 }
 
 #tabla tbody tr:nth-child(odd) {
@@ -101,6 +183,7 @@ body div.uno
 {   
    border: 1px solid black;
    display : inline-block; 
+   width: 100%;
 }
 
 
@@ -127,12 +210,7 @@ img.pie
   width: 180px; height: 70px;
 }    
 
-<<<<<<< HEAD
-section img
-{
 
-}
-=======
 .card {
     
      
@@ -143,4 +221,7 @@ section img
        padding:10px;
 }
 
->>>>>>> 82e803313dd57a3802816b3452ac58a6ac63d037
+#primero
+{
+  border: solid black;
+}
