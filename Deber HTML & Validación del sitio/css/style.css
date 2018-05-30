@@ -127,7 +127,20 @@ img.pie
   width: 180px; height: 70px;
 }    
 
+<<<<<<< HEAD
 section img
 {
 
 }
+=======
+.card {
+    
+     
+       margin: 10px;
+       overflow: scroll;
+       width: 290px;
+       height:300px;
+       padding:10px;
+}
+
+>>>>>>> 82e803313dd57a3802816b3452ac58a6ac63d037
