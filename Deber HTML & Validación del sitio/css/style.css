@@ -10,26 +10,22 @@ h1#cabecera {
 
 header {
   width: 100%;
-  
-  z-index: 100;
+  height: 180px;
   }
-
-
-section
-{
- padding-top: 100px;
-}  
 
 nav 
 {
   display: block;
   width: 100%;
-  float: left; /* Desplazamos el nav hacia la izquierda */
+  height: 70px;
+  /* Desplazamos el nav hacia la izquierda */
 }
  
 nav ul
 {
+  float: left;
   list-style: none;
+  width: 100%;
 }
  
 nav ul li 
@@ -53,14 +49,6 @@ nav ul li:hover
   background: yellow;
 }
 
-aside
-{
-  display: inline-block;
-  width: 45%;
-  height: 800px;
-
-}
-
 
 nav ul li a.active
 {
@@ -68,16 +56,45 @@ nav ul li a.active
  color:white; 
 }
 
-section.division
+section
+{
+  position: relative;
+  top: 0px;
+}
+
+aside
 {
   display: inline-block;
-  width: 45%;
-  padding: 10px;
+  width: 100%;
+  height: 800px;
+  position: relative;
+
 }
 
 section.division > *
 {
   display: inline-block;
+}
+
+body div.uno
+{
+  display: inline-block;
+  width: 45%;
+  height: 700px;
+  position: relative;
+}
+
+#tabla tbody tr:nth-child(odd) {
+    background-color: green;
+}
+
+#tabla tbody tr:nth-child(even) {
+    background-color: white;
+}
+
+#tabla thead 
+{
+  font-weight: bold;
 }
 
 #footer
@@ -109,3 +126,8 @@ img.pie
 {
   width: 180px; height: 70px;
 }    
+
+section img
+{
+
+}
