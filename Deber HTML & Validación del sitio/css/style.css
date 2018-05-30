@@ -1,9 +1,10 @@
 h1#cabecera { 
 	font-size: 45pt;
   text-align: center;
-  font-style: "Verdana";
   color: yellow;
-  background: url('imagenfondo.jpg') 
+  background: url('imagenfondo.jpg') ;
+  padding: 0px;
+  margin: 10px 0px;
 }
 
 
@@ -21,14 +22,14 @@ section
 
 nav 
 {
-  padding-left: 20px;
+  display: block;
+  width: 100%;
   float: left; /* Desplazamos el nav hacia la izquierda */
 }
  
 nav ul
 {
   list-style: none;
-  overflow: hidden; /* Limpiamos errores de float */
 }
  
 nav ul li 
@@ -36,6 +37,7 @@ nav ul li
   float: left;
   font-family: Arial;
   font-size: 20px;
+  border: solid black;
 }
  
 nav ul li a 
